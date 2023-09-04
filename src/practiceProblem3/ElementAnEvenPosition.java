@@ -1,6 +1,5 @@
 package practiceProblem3;
 
-public class EvenOddPosition {
     public class ElementAnEvenPosition {
 
     public static void main(String[] args) {
@@ -16,4 +15,4 @@ public class EvenOddPosition {
     }
 }
 
-}
+

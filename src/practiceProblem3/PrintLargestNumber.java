@@ -5,11 +5,14 @@ import java.util.Arrays;
 public class PrintLargestNumber {
     public static void main(String[] args) {
     int arr[] = {10, 324, 45, 90, 9808};
-        Arrays Arrays;
-        int max = Arrays.stream(arr).max().getAsInt();
-    System.out.println("Largest element of array " + max);
 
+        int max = arr[0];
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if(arr[i] > max)
+                max = arr[i];
+        }
+        System.out.println("Largest element present in given array: " + max);
+    }
 }
-}
-
-
